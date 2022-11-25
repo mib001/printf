@@ -25,10 +25,10 @@ int int_fun(va_list args)
 		numb = numb / 10;
 		if (numb == 0)
 			break;
-		else 
+		else
 			i++;
 	}
-	
+
 	/* print the array indexes to stdout*/
 	while (i >= 0)
 	{
