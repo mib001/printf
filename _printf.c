@@ -38,11 +38,11 @@ int _printf(const char *format, ...)
 			char_count += char_no;
 			i += 2;
 		}
-	}
+		}
 
-	char_no = _putchar(format[i]);
-	char_count += char_no;
-	i++;
+		char_no = _putchar(format[i]);
+		char_count += char_no;
+		i++;
 	}
 	va_end(args);
 	return (char_count);
