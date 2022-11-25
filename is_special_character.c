@@ -3,10 +3,10 @@
 /**
  * is_special_character - check the argument that is  character passed is and
  * compare it with the special character and
- *then return suitable function to the paramete
- *@format: the special character from the _prinf()
+ * then return suitable function to the paramete
+ * @format: the special character from the _prinf()
  *
- *Return: function pointer
+ * Return: function pointer
  */
 
 int (*is_special_character(const char *format))(va_list)

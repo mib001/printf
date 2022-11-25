@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *pcen_fun - prints one %
+ * pcen_fun - prints one %
  * @args: variadic parameter
  *
  * Return: number of characters printed
